@@ -15,7 +15,8 @@ slides:
     slide-data: "Cada vez que los bits de información se transfieren de un punto a otro, pueden sufrir interferencias. Esto provoca que puedan cambiar la forma de la señal que se vaya a recibir. Un solo error de un bit puede cambiar un 0 a un 1 o viceversa, incluso llegando a cambiar varios bits."
 
   - title: "Errores Comunes"
-    slide-data: "• <b>Error de un solo bit:</b> Se trata cuando un solo bit de una cantidad de datos se cambia de un 0 a un 1 o de un 1 a un 0.\n• <b>Error en ráfaga:</b> Sucede cuando dos o más bits en la unidad de datos cambian de 0 a 1 o viceversa, afectando a más bits."
+    slide-data: "• <b>Error de un solo bit:</b> Se trata cuando un solo bit de una cantidad de datos se cambia de un 0 a un 1 o de un 1 a un 0.\n
+    • <b>Error en ráfaga:</b> Sucede cuando dos o más bits en la unidad de datos cambian de 0 a 1 o viceversa, afectando a más bits."
 
   - title: "Redundancia"
     slide-data: "El concepto central de detectar o corregir errores es la redundancia. Para detectar o corregir errores, se necesitan enviar bits extra junto a nuestros datos. Esta redundancia es eliminada por el receptor, permitiendo detectar o corregir los bits corruptos."
