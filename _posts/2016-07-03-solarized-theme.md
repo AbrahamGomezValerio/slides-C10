@@ -33,11 +33,7 @@ slides:
     slide-data: "![Coaxial](images/Coax.png)"
 
   - title: "Estándares del cable coaxial"
-    slide-data: "| Categoría | Impedancia |    Uso   |\n
-                 |-----------|-----------|-----------|\n
-                 | RG-59     | 75 Ohms   | Cable de TV |\n
-                 | RG-58     | 50 Ohms   | Ethernet delgado |\n
-                 | RG-11     | 50 Ohms   | Ethernet grueso |"
+    slide-data: "| Categoría | Impedancia | Uso |\n|-----------|------------|------------------|\n| RG-59     | 75 Ohms    | Cable de TV      |\n| RG-58     | 50 Ohms    | Ethernet delgado |\n| RG-11     | 50 Ohms    | Ethernet grueso  |"
 
   - title: "Conectores del cable coaxial"
     slide-data: "Para conectar el cable coaxial a los dispositivos se necesita de sus conectores. Los más comunes son:\n- Conector BNC: Usado para conectar el cable al dispositivo final\n- BNC T: Usado para redes de ethernet que realiza una conexión de una computadora a otro dispositivo\n- BNC Terminador: Usado al final del cable para prevenir la duplicación de la señal\n\n![BNC](images/BNC.png)"
@@ -84,3 +80,4 @@ slides:
 <section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}"><h1>{{slide.title}}</h1>{{ slide.slide-data }}</section>
                     
 {% endfor %}
+
